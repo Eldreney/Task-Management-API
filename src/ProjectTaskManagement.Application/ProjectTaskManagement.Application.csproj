@@ -4,6 +4,13 @@
     <ProjectReference Include="..\ProjectTaskManagement.Domain\ProjectTaskManagement.Domain.csproj" />
   </ItemGroup>
 
+<ItemGroup>
+  <PackageReference Include="FluentValidation" Version="11.11.0" />
+  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.5.4" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.16" />
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.16" />
+</ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
